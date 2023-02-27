@@ -123,7 +123,6 @@ public class Menus {
                 String dig=JOptionPane.showInputDialog("Введите число");
 
                 fastParserWatcherLite.storageData.filterBiggerLess(dig,false,colNum);
-                fastParserWatcherLite.storageData.clearAllFilters();
                 fastParserWatcherLite.jtableData.loadData(fastParserWatcherLite.storageData);
 
             }
